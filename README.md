@@ -19,9 +19,10 @@ cmake --build --preset default
 
 # Run
 ./build/PathfindingVisualizer
-🔹 Windows (Visual Studio 2022)
-powershell
-Copy code
+```
+
+### 🔹 Windows (Visual Studio 2022)
+```powershell
 # Clone repo
 git clone https://github.com/Sayan090807/pathfinding-visualizer.git
 cd pathfinding-visualizer
@@ -37,3 +38,4 @@ cmake --build --preset vs2022
 
 # Run (inside build-vs/Debug or build-vs/Release)
 .\build-vs\Debug\PathfindingVisualizer.exe
+```
