@@ -5,7 +5,7 @@ Currently supports **Breadth-First Search (BFS)** with animated visualization.
 
 ---
 
-## ✨ Features
+## Features
 - Grid-based interactive editor:
   - **1** = Wall tool  
   - **2** = Start tool  
@@ -39,3 +39,7 @@ cmake --build --preset default
 
 # Run
 ./build/PathfindingVisualizer
+
+## 📜 License
+This project is licensed under the [MIT License](LICENSE).
+
