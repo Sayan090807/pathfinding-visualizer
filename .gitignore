@@ -8,6 +8,7 @@
 /CMakeFiles/
 
 # vcpkg installs (created at configure time)
+vcpkg/
 vcpkg_installed/
 
 # VS/CLion metadata
