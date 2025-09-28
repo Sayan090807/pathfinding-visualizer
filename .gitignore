@@ -1,0 +1,25 @@
+# Build artifacts
+/build*/
+/out*/
+/*.user
+/.cache
+/.cmake
+/CMakeCache.txt
+/CMakeFiles/
+
+# vcpkg installs (created at configure time)
+vcpkg_installed/
+
+# VS/CLion metadata
+.vscode/
+.idea/
+.vs/    
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Backup files
+*~
