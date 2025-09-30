@@ -1,26 +1,23 @@
-# Build artifacts
+# ---- Build artifacts ----
 /build*/
 /out*/
-/*.user
-/.cache
-/.cmake
 /CMakeCache.txt
 /CMakeFiles/
+/cmake_install.cmake
+/Makefile
 
-# vcpkg installs (created at configure time)
-vcpkg/
-vcpkg_installed/
+# ---- vcpkg ----
+/vcpkg_installed/
+/vcpkg/
 
-# VS/CLion metadata
-.vscode/
-.idea/
-.vs/    
+# ---- Project binaries ----
+/PathfindingVisualizer
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
 
-# macOS
-.DS_Store
-
-# Logs
+# ---- Logs ----
 *.log
-
-# Backup files
-*~
